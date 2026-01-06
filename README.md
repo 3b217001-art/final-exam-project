@@ -33,7 +33,7 @@ graph LR
 ```
 [成果 : ]() 
 
-![pacho](./images/ok1.jpg)
+![pacho](./ok1.jpg)
 
 ### [第二部分：API 後端](api.py)
 ```
@@ -43,38 +43,38 @@ graph LR
 ```
 1. 啟動 API：uvicorn api:app --reload
 ```
-![API](./images/09.jpg)
+![API](./09.jpg)
 ```
 2. Swagger UI：http://127.0.0.1:8000/docs → 互動測試
 ```
-![API](./images/ok11.jpg)
+![API](./ok11.jpg)
 ```
 3.  GET 端點測試
 ```
-![API](./images/ok3.jpg)
+![API](./ok3.jpg)
 ```
 4. 取得全部文章
 (1) 展開 GET /posts
 (2) 點選 Try it out**
 (點選之前可視為是 API 的端點使用說明，點選之後變成可以進行 API 測試)
 ```
-![API](./images/ok4.jpg)
+![API](./ok4.jpg)
 ```
 5. POST  端點測試
 ```
-![API](./images/ok5.jpg)
+![API](./ok5.jpg)
 ```
 6. put  端點測試
 ```
-![API](./images/ok6.jpg)
+![API](./ok6.jpg)
 ```
 7.  DELETE 端點測試
 ```
-![API](./images/ok7.jpg)
+![API](./ok7.jpg)
 ```
 8.  GUI 執行時，API 必須保持開啟狀態
 ```
-![API](./images/09.jpg)
+![API](./09.jpg)
 ### [第三部分：視窗管理程式](gui.py)
 ```
 目標： 使用 Tkinter 設計一個 GUI，透過 呼叫 API 來進行 CRUD 操作。
@@ -88,11 +88,11 @@ graph LR
 1. python gui.py (  測試新增、刪除、修改功能是否同步影響 API 與資料庫
 ，且操作時畫面流暢  )
 ```
-![gui](./images/14.jpg)
+![gui](./14.jpg)
 ```
 2.狀態列 (Status Bar)
 ```
-![API](./images/17.jpg)
+![API](./17.jpg)
 
 
 
